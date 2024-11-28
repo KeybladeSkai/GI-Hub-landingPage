@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./Images/GI-hub.webp" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Events | GI-HUB</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <header
+    class="border-[1px] border-r-0 border-l-0 flex justify-between items-center px-[40px] border-slate-400 h-[12vh]"
+  >
+  <a href="./index.html">
+    <div class="flex items-center">
+      <img src="./Images/GI-hub.webp" />
+      <h1 class="font-bold text-[#F66404] ">-iHUb</h1>
+    </div>
+  </a>
+  <nav class="md:flex navbar hidden">
+    <ul class="flex gap-8 text-sm cursor-pointer">
+      <a id="nav1" href="./index.html">
+        <li class="hover:text-[#f66404]">Home</li>
+      </a>
+      <a href="./about.html">
+      <li class="hover:text-[#f66404]">About</li>
+      </a>
+      <a href="./team.html">
+      <li class="hover:text-[#f66404]">Team</li>
+    </a>
+
+    <a href="./events.html">
+      <li class="hover:text-[#f66404]">Events</li>
+    </a>
+
+    </ul>
+  </nav>
+    <button class="p-2 text-white rounded-md text-[.8rem] bg-[#F66404] hover:bg-black hover:text-white hidden md:flex">
+      Subscribe
+    </button>
+    <div id="menu"  class="fa-solid fa-bars block lg:hidden cursor-pointer"></div>
+  </header>
+
+  <div class="bg-black opacity-60 inset-0 absolute hidden opaque"></div>
+    <div class="top-0 right-0 pl-[40px] pr-[20px] w-[300px] bg-black text-white h-screen absolute items-center justify-center flex-col container hidden z-[50]">
+      <div id="menu2"  class="fa-solid fa-times block lg:hidden cursor-pointer z-[40] absolute top-7 right-7 hove:bg-red-700"></div>
+      <nav class="z-20 relative nav hidden">
+        <ul class="flex flex-col gap-12  cursor-pointer text-center  text-lg">
+          <a href="./index.html">
+            <li class="hover:text-[#f66404]">Home</li>
+          </a>
+          <a href="./about.html">
+            <li class="hover:text-[#f66404]">About</li>
+          </a>
+          <a href="./team.html">
+            <li class="hover:text-[#f66404]">Team</li>
+        </a>
+
+        <a href="./events.html">
+          <li class="hover:text-[#f66404]">Events</li>
+        </a>
+      </nav>
+    </div>
+    
+    <section class="pt-40">
+        <h2 class="text-5xl font-bold text-center capitalize">Events</h2>
+        <section class="bg-slate-100 flex justify-center items-center px-6 lg:px-12 py-20  mt-[40px]  flex-col gap-20 ">
+            <div class="flex flex-col md:flex-row justify-center gap-10 border-[1px] pb-[100px] lg:pb-[60px] mb-[60px] border-black border-t-0 border-r-0 border-l-0">
+                <img src="./Images/event1.jpeg" alt="" class="md:w-[300px] md:h-[300px] h-auto ">
+            
+                <div class="flex flex-col  py-10 h-[200px] gap-5">
+                  <h3 class="text-lg text-[#f66404] font-bold capitalize">11th October 2024</h3>
+                  <p class="text-2xl leading-relaxed font-bold">A New  Approach to Breaking into Technology .
+                  </p>
+                  <a href="./Register.html">    
+                   <button class="w-[200px] px-2 py-3 text-white rounded-md text-[.8rem] bg-[#F66404] hover:bg-black hover:text-white">
+                    Register
+                  </button>
+                </a>
+                </div>
+
+                </div>
+            <div class="flex flex-col md:flex-row justify-center gap-10 border-[1px] pb-[60px] border-black border-t-0 border-r-0 border-l-0">
+            <img src="./Images/event1.jpeg" alt="" class="md:w-[300px] md:h-[300px] h-auto ">
+        
+            <div class="flex flex-col   py-10 h-[200px] gap-5">
+              <h3 class="text-lg text-[#f66404] font-bold capitalize">11th October 2024</h3>
+              <p class="text-2xl leading-relaxed font-bold">A New  Approach to Breaking into Technology.
+              </p>
+              <h2 class="italic"> completed</h2>
+              </h2>
+        
+            </div>
+            </div>
+ 
+      </section>
+      <footer class="flex flex-col bg-black px-12 py-12 mt-[30px]">
+        <div class="flex justify-between">
+          <div class="flex items-center">
+            <img src="./Images/GI-hub.webp" />
+            <h1 class="font-bold text-[#F66404]">-iHUb</h1>
+          </div>
+          <div class="flex gap-4 cursor-pointer">
+            <img src="./Images/whatsapp.png" alt="" class="w-[25px] h-[25px]" />
+            <img src="./Images/linkedin.png " alt="" class="w-[25px] h-[25px]" />
+            <img src="./Images/gmail.png " alt="" class="w-[25px] h-[25px]" />
+          </div>
+        </div>
+        <h3 class="text-white h-[100%] flex justify-center items-center">
+          Copyright © 2024 Genomac Innovation Hub (G-iHub)
+        </h3>
+      </footer>
+      <script src="./scripts/index.js"></script>
+  </body>
+</html>

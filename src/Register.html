@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="icon" href="./Images/GI-hub.webp" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Register | GI-HUB</title>
+  </head>
+
+  <body class="overflow-x-hidden w-[100%]">
+    <header
+    class="border-[1px] border-r-0 border-l-0 flex justify-between items-center px-[40px] border-slate-400 h-[12vh]"
+  >
+    <a  href="./index.html">
+    <div class="flex items-center">
+      <img src="./Images/GI-hub.webp" />
+      <h1 class="font-bold text-[#F66404] ">-iHUb</h1>
+    </div>
+  </a>
+  <nav class="md:flex navbar hidden">
+    <ul class="flex gap-8 text-sm cursor-pointer">
+      <a id="nav1" href="./index.html">
+        <li class="hover:text-[#f66404]">Home</li>
+      </a>
+      <a href="./about.html">
+      <li class="hover:text-[#f66404]">About</li>
+      </a>
+      <a href="./team.html">
+      <li class="hover:text-[#f66404]">Team</li>
+    </a>
+
+    <a href="./events.html">
+      <li class="hover:text-[#f66404]">Events</li>
+    </a>
+
+    </ul>
+  </nav>
+    <button class="p-2 text-white rounded-md text-[.8rem] bg-[#F66404] hover:bg-black hover:text-white hidden md:flex">
+      Subscribe
+    </button>
+    <div id="menu"  class="fa-solid fa-bars block lg:hidden cursor-pointer"></div>
+  </header>
+
+  <div class="bg-black opacity-60 inset-0 absolute hidden opaque"></div>
+    <div class="top-0 right-0 pl-[40px] pr-[20px] w-[300px] bg-black text-white h-screen absolute items-center justify-center flex-col container hidden z-[50]">
+      <div id="menu2"  class="fa-solid fa-times block lg:hidden cursor-pointer z-[40] absolute top-7 right-7 hove:bg-red-700"></div>
+      <nav class="z-20 relative nav hidden">
+        <ul class="flex flex-col gap-12  cursor-pointer text-center  text-lg">
+          <a href="./index.html">
+            <li class="hover:text-[#f66404]">Home</li>
+          </a>
+          <a href="./about.html">
+            <li class="hover:text-[#f66404]">About</li>
+          </a>
+          <a href="./team.html">
+            <li class="hover:text-[#f66404]">Team</li>
+        </a>
+
+        <a href="./events.html">
+          <li class="hover:text-[#f66404]">Events</li>
+        </a>
+      </nav>
+    </div>
+    
+    <section
+      class="px-4 mt-[50px] flex flex-col gap-20 lg:gap-0 lg:flex-row items-center justify-center lg:pt-[10px] lg:mx-52"
+    >
+      <div
+        class="flex flex-col md:items-center lg:items-start w-[100%] lg:w-[600px] gap-6 p-2"
+      >
+        <h1 class="text-xl uppercase">Webinar 1.0</h1>
+        <p
+          class="text-4xl font-bold leading-[60px] md:text-5xl md:leading-[80px] md:text-center lg:text-start lg:w-[450px] l"
+        >
+          A New Approach to Breaking into Technology
+        </p>
+        <div class="border-[1px] w-[300px] border-b-0 border-[#f66404]"></div>
+        <p>Exploring Opportunities in Health Tech</p>
+        <a href="#form">
+          <button
+            class="w-[200px] px-2 py-3 text-white rounded-md text-[.8rem] bg-[#F66404] hover:bg-black hover:text-white"
+          >
+            Secure your spot
+          </button>
+        </a>
+      </div>
+      <img
+        src="./Images/event1.jpeg"
+        alt=""
+        class="w-[60%] h-auto lg:w-[400px] lg:h-[350px] rounded-xl"
+      />
+    </section>
+    <section class="flex flex-col justify-center pt-[180px] px-4 md:px-4 lg:mx-52">
+      <div class="">
+        <h2 class="font-bold text-[#f66404] text-3xl md:text-xl">
+          About the Webinar
+        </h2>
+        <p class="mt-[20px] font-light leading-relaxed break-words">
+          Join us for an engaging webinar, "A New Approach to Breaking into
+          Technology: Exploring Opportunities in Health Tech," where you'll
+          discover the exciting intersection of healthcare and technology. This
+          event is designed to provide actionable insights into Health Tech,
+          covering computational biology, career opportunities, digital product
+          creation, and the future trends shaping this innovative field. Whether
+          you're looking to enter the industry or expand your knowledge, this
+          webinar is your gateway to the future of healthcare.
+        </p>
+      </div>
+      <div class="mx-4 md:mx-12 mt-8">
+        <ul class="flex flex-col md:flex-row md:items-center list-disc gap-10">
+          <li class="text-sm font-bold">Date: 11th October, 2024</li>
+          <li class="text-sm font-bold">Time: 4PM -6 PM WAT</li>
+          <li class="text-sm font-bold">Duration: 2 hours</li>
+          <li class="text-sm font-bold">WITH CERTIFICATE</li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      class="mt-[180px] lg:w-[1200px] flex justify-center items-center flex-col px-4 md:mx-auto"
+    >
+      <h2
+        class="text-[#f66404] text-3xl leading-[2.5rem] md:leading-normal md:text-xl font-bold text-center"
+      >
+        Webinar Features: What you will learn and gain
+      </h2>
+      <div class="mt-[60px] flex gap-8 flex-wrap items-center justify-center">
+        <div
+          class="md:w-[350px] bg-white shadow-md border-[1px] border-slate-400 py-6 md:h-[90px] leading-[1.3rem] md:py-4 px-4 rounded-2xl text-[.8rem] break-words hyphens-auto"
+        >
+          <span class="font-bold inline">Comprehensive Understanding</span>:
+          Grasp the concept of Health Tech, its various domains, and its
+          significant impact on the healthcare industry.
+        </div>
+        <div
+          class="md:w-[350px] bg-white shadow-md border-[1px] border-slate-400 py-6 md:h-[90px] leading-[1.3rem] md:py-4 px-4 rounded-2xl text-[.8rem] break-words hyphens-auto"
+        >
+          <span class="font-bold">AI & Computational Biology</span>: Delve into
+          the integration of AI and computational biology in healthcare, and how
+          they are driving innovation
+        </div>
+        <div
+          class="md:w-[350px] bg-white shadow-md border-[1px] border-slate-400 py-6 md:h-[90px] leading-[1.3rem] md:py-4 px-4 rounded-2xl text-[.8rem] break-words hyphens-auto"
+        >
+          <span class="font-bold"> Digital Product Creation </span>: Learn the
+          process of creating digital health products and explore their
+          transformative potential in healthcare..
+        </div>
+        <div
+          class="md:w-[350px] bg-white shadow-md border-[1px] border-slate-400 py-6 md:h-[90px] leading-[1.3rem] md:py-4 px-4 rounded-2xl text-[.8rem] break-words hyphens-auto"
+        >
+          <span class="font-bold"> Future Trends </span> : Gain insights into
+          the future of Health Tech, including the roles of AI and IT
+          innovations in shaping the industry..
+        </div>
+
+        <div
+          class="md:w-[350px] bg-white shadow-md border-[1px] border-slate-400 py-6 md:h-[90px] leading-[1.3rem] md:py-4 px-4 rounded-2xl text-[.8rem] break-words hyphens-auto"
+        >
+          <span class="font-bold"
+            >Salary Expectations & Leading Companies
+          </span>
+          : Understand typical salary ranges in Health Tech careers and identify
+          key players in the industry.
+        </div>
+
+        <div
+          class="md:w-[350px] bg-white shadow-md border-[1px] border-slate-400 py-6 md:h-[90px] leading-[1.3rem] md:py-4 px-4 rounded-2xl text-[.8rem] break-words hyphens-auto"
+        >
+          <span class="font-bold"> Career Opportunities </span>: Discover the
+          diverse career opportunities within Health Tech, along with the
+          essential skills and certifications.
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[180px] flex flex-col py-20 bg-pink-100 px-4">
+      <h2
+        class="text-[#f66404] text-3xl leading-[2.5rem] md:text-xl font-bold text-center"
+      >
+        Speakers
+      </h2>
+      <div
+        class="mt-[60px] flex gap-20 md:gap-8 flex-wrap items-center justify-center"
+      >
+        <div class="flex flex-col items-center">
+          <img src="./Images/myceo.webp" class="shadow-lg rounded-md" />
+          <div class="text-[.8rem] text-center mt-[20px] my-[1rem]">
+            <p class="font-bold">Oluwaseyi Olawale</p>
+            <p class="italic text-[.7rem]">Founder and CEO Genomac Holdings</p>
+          </div>
+          <div
+            class="w-[250px] text-center text-[.8rem] p-1 rounded-md hyphens-auto break-words mt-[20px]"
+          >
+            <p>
+              <span class="font-bold">TOPIC</span> : Harnessing AI and
+              Computational Biology for innovations in Healthcare and Biotech
+            </p>
+          </div>
+          <button
+            class="p-2 text-white rounded-md text-[.8rem] bg-[#F66404] hover:bg-black hover:text-white flex mt-[20px] w-[200px] justify-center"
+          >
+            View Profile
+          </button>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="./Images/woman.webp" class="shadow-lg rounded-md" />
+          <div class="text-[.8rem] text-center mt-[20px] my-[1rem]">
+            <p class="font-bold">Syuzanna Matevosyan</p>
+            <p class="italic text-[.7rem]">
+              E.A in MedProgress Healthcare Foundation
+            </p>
+          </div>
+          <div
+            class="w-[250px] text-center text-[.8rem] p-1 rounded-md hyphens-auto mt-[20px]"
+          >
+            <p>
+              <span class="font-bold">TOPIC</span> : Finding Your Niche in Tech:
+              A Step-by-Step Guide to Carving Out Your Path in the Technology
+              Sector
+            </p>
+          </div>
+          <button
+            class="p-2 text-white rounded-md text-[.8rem] bg-[#F66404] hover:bg-black hover:text-white flex mt-[20px] w-[200px] justify-center"
+          >
+            View Profile
+          </button>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="./Images/man.webp" class="shadow-lg rounded-md" />
+          <div class="text-[.8rem] text-center mt-[20px] my-[1rem]">
+            <p class="font-bold">Ola Okegbemi</p>
+            <p class="italic text-[.7rem]">Engineering Lead</p>
+          </div>
+          <div
+            class="w-[250px] text-center p-1 rounded-md text-[.8rem] hyphens-auto mt-[20px]"
+          >
+            <p>
+              <span class="font-bold">TOPIC</span> : A Comprehensive Guide to
+              Creating Digital Health Products and Maximizing the Health Tech
+              Space.
+            </p>
+          </div>
+          <button
+            class="p-2 text-white rounded-md text-[.8rem] bg-[#F66404] hover:bg-black hover:text-white flex mt-[20px] w-[200px] justify-center"
+          >
+            View Profile
+          </button>
+        </div>
+      </div>
+    </section>
+    <section
+      class="flex flex-col md:flex-row flex-wrap lg:flex-row justify-center gap-8 items-center mt-[100px]"
+    >
+      <div
+        class="border-[1px] border-slate-400 w-[300px] md:w-[350px] lg:w-[320px] h-[450px] rounded-xl px-4 py-8 flex flex-col gap-4 leading-[1.5rem] break-words hyphens-auto"
+      >
+        <h2 class="text-[#f66404] text-xl font-bold text-center">
+          Why Attend?
+        </h2>
+        <p class="text-[.8rem] leading-[1.6rem]">
+          Gain key insights into the rapidly growing Health Tech sector,
+          understand how AI and computational biology are driving innovations,
+          and learn about the skills and certifications needed to succeed. This
+          webinar offers practical knowledge for both newcomers and seasoned
+          professionals interested in transforming healthcare through
+          technology.
+        </p>
+      </div>
+      <div
+        class="border-[1px] border-slate-400 w-[300px] md:w-[350px] lg:w-[320px] h-[450px] rounded-xl px-4 py-8 flex flex-col gap-4 leading-[1.5rem] break-words hyphens-auto"
+      >
+        <h2 class="text-[#f66404] text-xl font-bold text-center">
+          Who Should Attend?
+        </h2>
+        <ul class="text-[.8rem] list-disc px-6 leading-[1.6rem]">
+          <li>
+            Tech professionals aspiring to enter the Health Tech industry.
+          </li>
+          <li>
+            Healthcare professionals looking to incorporate technology into
+            their practice.
+          </li>
+          <li>
+            Entrepreneurs and innovators interested in developing digital health
+            products.
+          </li>
+          <li>
+            Students and recent graduates exploring career paths in Health Tech.
+          </li>
+          <li>
+            Anyone curious about the future of healthcare and technology
+            convergence.
+          </li>
+        </ul>
+      </div>
+      <div
+        class="border-[1px] border-slate-400 w-[300px] md:w-[350px] lg:w-[320px] h-[450px] rounded-xl px-4 py-8 flex flex-col gap-4 leading-[1.5rem] break-words hyphens-auto"
+      >
+        <h2 class="text-[#f66404] text-xl font-bold text-center">
+          What to Get?
+        </h2>
+        <ul class="leading-[1.6rem] text-[.8rem] list-disc px-6">
+          <li>
+            <span class="font-bold">Unlocking Health Tech </span>: Explore the
+            broad scope of Health Tech, from career paths to digital product
+            development.
+          </li>
+          <li>
+            <span class="font-bold"
+              >Innovating with AI and Computational Biology</span
+            >: Discover how AI and computational biology are reshaping
+            healthcare and creating new opportunities.
+          </li>
+          <li>
+            <span class="font-bold">Preparing for the Future</span>: Learn about
+            the future trends in Health Tech and the essential skills required
+            to thrive in this evolving field.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="form" class="mt-[180px] px-4 md:px-0 mb-20">
+      <h2 class="text-[#f66404] font-bold text-center uppercase text-3xl">
+        Registration form
+      </h2>
+      <div class="flex flex-col items-center justify-center mt-[80px]">
+        <form
+          class="w-[100%] md:w-[650px] md:h-[400px] flex gap-8 md:gap-0 justify-between flex-col border-[1px] border-slate-400 px-4 py-10 rounded-xl"
+        >
+          <div class="flex flex-col gap-8 md:flex-row md:gap-[50px]">
+            <input
+              type="text"
+              name="firstName"
+              id="fname"
+              placeholder="First Name"
+              class="border-[1px] border-black border-t-0 border-r-0 border-l-0 h-[30px] outline-none text-[.9rem] md:w-[80%]"
+              required
+            />
+            <input
+              type="text"
+              name="lastName"
+              id="lname"
+              placeholder="Last Name"
+              class="border-[1px] border-black border-t-0 border-r-0 border-l-0 h-[30px] outline-none text-[.9rem] md:w-[80%]"
+              required
+            />
+          </div>
+          <div class="flex flex-col gap-8 md:flex-row md:gap-[50px]">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              class="border-[1px] border-black border-t-0 border-r-0 border-l-0 h-[30px] outline-none text-[.9rem] md:w-[80%]"
+              required
+            />
+            <input
+              type="text"
+              name="phoneNumber"
+              id="phonenumber"
+              placeholder="Phone Number"
+              class="border-[1px] border-black border-t-0 border-r-0 border-l-0 h-[30px] outline-none text-[.9rem] md:w-[80%]"
+              required
+            />
+          </div>
+          <div class="flex flex-col gap-8 md:flex-row md:gap-[50px]">
+            <input
+              type="text"
+              name="country"
+              id="country"
+              placeholder="Country"
+              class="border-[1px] border-black border-t-0 border-r-0 border-l-0 h-[30px] outline-none text-[.9rem] md:w-[80%]"
+              required
+            />
+            <input
+              type="text"
+              name="fieldOfStudy"
+              id="fieldofstudy"
+              placeholder="Field of Study"
+              class="border-[1px] border-black border-t-0 border-r-0 border-l-0 h-[30px] outline-none text-[.9rem] md:w-[80%]"
+              required
+            />
+          </div>
+          <input
+            type="text"
+            name="expectations"
+            id="expectations"
+            placeholder="Expectations"
+            class="border-[1px] border-black border-t-0 border-r-0 border-l-0 h-[30px] outline-none text-[.9rem] md:w-[80%]"
+            required
+          />
+          <button
+            type="submit"
+            id="btn"
+            class="px-2 py-4 text-white rounded-md text-[.8rem] bg-[#F66404] hover:bg-black hover:text-white block md:flex mt-[10px] w-[250px] justify-center self-center"
+          >
+
+          
+            Register
+          </button>
+        </form>
+
+        <p class="md:w-[350px] md:text-[.8rem] text-center mt-[1.5rem] mb-[4rem]">
+          Kindly note that, you will be redirected to a WhatsApp Group for
+          further information on the webinar.
+        </p>
+      </div>
+    </section>
+    <footer class="flex flex-col bg-black px-6 md:px-12 py-12">
+      <div class="flex justify-between">
+        <div class="flex items-center">
+          <img src="./Images/GI-hub.webp" />
+          <h1 class="font-bold text-[#F66404]">-iHUb</h1>
+        </div>
+        <div class="flex gap-4 cursor-pointer">
+          <img src="./Images/whatsapp.png" alt="" class="w-[25px] h-[25px]" />
+          <img src="./Images/linkedin.png " alt="" class="w-[25px] h-[25px]" />
+          <img src="./Images/gmail.png " alt="" class="w-[25px] h-[25px]" />
+        </div>
+      </div>
+      <h3
+        class="text-white h-[100%] flex justify-center items-center text-center mt-10 md:mt-0"
+      >
+        Copyright © 2024 Genomac Innovation Hub (G-iHub).
+      </h3>
+    </footer>
+  </body>
+  <script src="./scripts/register.js"></script>
+  <script src="./scripts/index.js"></script>
+</html>

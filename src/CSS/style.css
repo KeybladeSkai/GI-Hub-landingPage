@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s cubic-bezier(0.16, 0.8, 0.62, 1.52);
+}
+
+html::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #000;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #f66404;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+}
+
+/* Initial state: off-screen */
+.container {
+  transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.6, 1);
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+}
+
+/* When the container is visible (slid in) */
+.container.flex {
+  transform: translateX(0); /* Slide in */
+}
+
+/* Optional: Add a fade effect to the overlay */
+.opaque {
+  transition: opacity 0.3s ease-in-out;
+}
+.nav ul li {
+  transform: translateY(20px); /* Start below the normal position */
+  transition: transform 1s cubic-bezier(0.4, 0, 0.6, 1), opacity 0.5s ease-out; /* Smooth animation for text */
+}
+
+/* When the sidebar is visible, animate text to move up */
+.container.flex .nav ul li {
+  transform: translateY(0); /* Move up */
+  opacity: 1; /* Fade in */
+}
